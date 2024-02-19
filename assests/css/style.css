@@ -8,10 +8,11 @@ body{
 .container{
     background-color: beige;
     width: 80%;
-    height: 100vh;
+    height: 95%;
     align-items: center;
     border-radius: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 header{
@@ -55,4 +56,27 @@ hr{
     border: dashed 2px black;
     width: 90%;
     margin-top: 50px;
+}
+
+#skill-name{
+    text-align: center;
+    font-size: 30px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+}
+
+.skill{
+    font-size: 18px;
+    border: solid 1px black;
+    width: 25%;
+    background-color: PINK;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+li{
+    padding-bottom: 10px;
 }
