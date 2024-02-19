@@ -47,7 +47,7 @@ img{
 }
 
 #desc{
-    font-size: 17px;
+    font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 10px;
 }
@@ -58,7 +58,7 @@ hr{
     margin-top: 50px;
 }
 
-#skill-name{
+#skill-name,#project-name{
     text-align: center;
     font-size: 30px;
 }
@@ -75,8 +75,31 @@ hr{
     background-color: PINK;
     border-radius: 20px;
     margin-top: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 li{
     padding-bottom: 10px;
 }
+.projects{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project{
+    font-size: 18px;
+    border: solid 1px black;
+    width: 30%;
+    background-color: pink;
+    border-radius: 20px;
+    margin-top: 15px;
+    align-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    text-align: center;
+}
+
+
+
